@@ -81,7 +81,7 @@ func main() {
 
 	bindAddr := fmt.Sprintf(":%s", port)
 	fmt.Println()
-	fmt.Printf("==> Server listening at %s 🚀\n", bindAddr)
+	fmt.Printf("==> Server 2 listening at %s 🚀\n", bindAddr)
 
 	err := http.ListenAndServe(fmt.Sprintf(":%s", port), nil)
 	if err != nil {
