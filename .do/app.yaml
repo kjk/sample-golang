@@ -2,5 +2,5 @@ name: sample-golang
 services:
 - name: web
   github:
-    repo: digitalocean/sample-golang
+    repo: kjk/sample-golang
     branch: main
