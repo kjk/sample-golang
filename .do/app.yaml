@@ -4,3 +4,4 @@ services:
   github:
     repo: kjk/sample-golang
     branch: main
+  build_command: go install -v -tags blast github.com/digitalocean/sample-golang
